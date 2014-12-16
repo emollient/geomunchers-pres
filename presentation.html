@@ -45,7 +45,7 @@
                 <section>
                     <section>
                     <a href="#" class="nagivate-down"></a>
-                        Screen shots from current game
+                    <img src="images/gamescreen.png">
                     </section>
                     <section>
                     <h3>Player</h3>
@@ -172,6 +172,30 @@ class GameObject:
         self.drawRect = None
                     </code></pre>
                 </section>
+                <section>
+                <h3>Leveling</h3>
+                <pre><code class="python" data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+from gameobject.GameObject import Munchable
+import random
+
+class Level:
+
+    Levels = []
+
+    def __init__(self, screen, levelName, goodMunchableTypes, badMunchableTypes, numOfGoodMunchables):
+        self.screen = screen;
+
+        self.levelName = levelName
+
+        self.goodMunchableTypes = goodMunchableTypes
+        self.badMunchableTypes = badMunchableTypes
+        self.numOfGoodMunchables = numOfGoodMunchables
+
+        Level.Levels.append(self)
+
+        self.index = len(Level.Levels) - 1
+                </code></pre>
+                </section>
                 </section>
                 <section>
                 <h3>Playtesting: the results</h3>
@@ -184,17 +208,62 @@ class GameObject:
                     <section>
                         <h3>Adding art to the game</h3>
                         <p>Currently placeholders are in the grid of the board </p>
+                        <img src="images/AngleAcute0.bmp" style="float:left">
+                        <img src="images/AngleRight0.bmp">
+                        <img src="images/AngleObtuse3.bmp" style="float:right">
                     </section>
                     <section>
                         <h3>The enemy AI </h3>
                         <p>Beyond our scope for this semester, enemy AIs were not implemented</p>
+                        <img src="images/characters_64/triceratops.bmp" style="float:left">
+                        <img src="images/characters_64/tyrannosaurus.bmp">
+                        <img src="images/characters_64/raptor.bmp" style="float:right">
+                    </section>
+                    <section>
+                        <h3>Winning the game </h3>
+                        <p>Able to advance level, but unable to win the game once all levels are completed</p>
+                        </section>
                     </section>
                 </section>
                 <section>
-                <h3>Challenges we had</h3>
+                    <section> 
+                        <h3>Challenges we had</h3>
+                    </section>
+                    <section>
+                        <h3>Challenges with code</h3>
+                            <ul>
+                                <li>Platform dependence(Windows doesn't support GDK3)</li>
+                                <li>Python learning curve -> applying it to a OO game programming</li>
+                                <li>Time and scope</li>
+                                <li>Speghetti code</li>
+                            </ul>
+                    </section>
+                    <section>
+                        <h3>Challenge with art</h3>
+                            <ul>
+                                <li>Animating a player</li>
+                                <li>Choosing an appropriate compression algorithm</li>
+                            </ul>
+                    </section>
+                    <section>
+                        <h3>Challenge with documentation</h3> 
+                            <ul>
+                                <li>Wiki markup language has a high learning curve</li>
+                                <li>Using new tools to make pretty documentation</li>
+                            </ul>
+                    </section>
                 </section>
                 <section>
-                <h3>What we would have done differently</h3>
+                    <section>
+                        <h3>What we would have done differently</h3>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Invested more time in the project - more features implemented</li>
+                            <li>Dividing work better and making sure all did their share</li>
+                            <li>More accurately scoped out project</li>
+                        </ul>
+                    </section>
                 </section>
                 <section>
                     <section>
