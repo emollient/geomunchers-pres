@@ -129,10 +129,35 @@
                             <br>
                     </p>
                     </small>
-
- 
                     </section>
+                    <section>
+                    <h3>The board</h3>
+                        <pre><code class="python" data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+import pygame
+from gameobject.GameObject import Munchable
+from level.Level import Level
+class Board:
+    def __init__(self, topLeft, width, height, surface):
+                        </code></pre>
+                    </section>
+                    <section>
+                    <h3>Game Object</h3>
+                        <pre><code class="python" data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+import pygame
+import random
 
+class GameObject:
+    def __init__(self, board, boardX, boardY):
+        self.board = board
+        self.screen = board.surface
+
+        self.screenRect = {'x':0, 'y':0, 'width':0, 'height':0}
+        self.boardCoords = {'x':boardX, 'y':boardY}
+
+        #More primitive datastructure for blitting to screen
+        self.drawRect = None
+                    </code></pre>
+                </section>
                 </section>
                 <section>
                 <h3>Playtesting: the results</h3>
@@ -140,7 +165,7 @@
                 <section>
                     <section>
                         <h3>Things left to implement</h3>
-                        <img src="images/AngleAcute3.bmp">
+                        <img src="images/PlayerRight.bmp">
                     </section>
                     <section>
                         <h3>Adding art to the game</h3>
