@@ -1,0 +1,93 @@
+/Users/susan/projects/NumberMunchersClone/
+├── LICENSE
+├── NumberMunchersActivity.py
+├── NumberMunchersGame.py
+├── README.md
+├── activity
+│   ├── activity.info
+│   └── geoicon.svg
+├── activity.py
+├── board
+│   ├── Board.py
+│   └── __init__.py
+├── build.sh
+├── gameobject
+│   ├── GameObject.py
+│   └── __init__.py
+├── level
+│   ├── Level.py
+│   └── __init__.py
+├── requirements.txt
+├── res
+│   └── img
+│       ├── AngleAcute0.bmp
+│       ├── AngleAcute1.bmp
+│       ├── AngleAcute2.bmp
+│       ├── AngleAcute3.bmp
+│       ├── AngleObtuse0.bmp
+│       ├── AngleObtuse1.bmp
+│       ├── AngleObtuse2.bmp
+│       ├── AngleObtuse3.bmp
+│       ├── AngleRight0.bmp
+│       ├── ExitGameButtonHover.bmp
+│       ├── ExitGameButtonPressed.bmp
+│       ├── ExitGameButtonStatic.bmp
+│       ├── PlayerLeft.bmp
+│       ├── PlayerLeftMunch.bmp
+│       ├── PlayerRight.bmp
+│       ├── PlayerRightMunch.bmp
+│       ├── StartGameButtonHover.bmp
+│       ├── StartGameButtonPressed.bmp
+│       ├── StartGameButtonStatic.bmp
+│       ├── characters_64
+│       │   ├── apatosaurus.bmp
+│       │   ├── player.bmp
+│       │   ├── raptor.bmp
+│       │   ├── triceratops.bmp
+│       │   └── tyrannosaurus.bmp
+│       └── characters_HD
+│           ├── apatosaurus
+│           │   ├── apatosaurus_back_stand.png
+│           │   ├── apatosaurus_back_walk.png
+│           │   ├── apatosaurus_front_stand.png
+│           │   ├── apatosaurus_front_walk.png
+│           │   ├── apatosaurus_side_stand.png
+│           │   └── apatosaurus_side_walk.png
+│           ├── player
+│           │   ├── player_back_anim.gif
+│           │   ├── player_back_stand.png
+│           │   ├── player_back_walk.png
+│           │   ├── player_front_anim.gif
+│           │   ├── player_front_stand.png
+│           │   ├── player_front_walk.png
+│           │   ├── player_side_anim.gif
+│           │   ├── player_side_stand.png
+│           │   └── player_side_walk.png
+│           ├── raptor
+│           │   ├── raptor_back_stand.png
+│           │   ├── raptor_back_walk.png
+│           │   ├── raptor_front_stand.png
+│           │   ├── raptor_front_walk.png
+│           │   ├── raptor_side_stand.png
+│           │   └── raptor_side_walk.png
+│           ├── triceratops
+│           │   ├── triceratops_back_stand.png
+│           │   ├── triceratops_back_walk.png
+│           │   ├── triceratops_front_stand.png
+│           │   ├── triceratops_front_walk.png
+│           │   ├── triceratops_side_stand.png
+│           │   └── triceratops_side_walk.png
+│           └── tyrannosaurus
+│               ├── tyrannosaurus_back_stand.png
+│               ├── tyrannosaurus_back_walk.png
+│               ├── tyrannosaurus_front_stand.png
+│               ├── tyrannosaurus_front_walk.png
+│               ├── tyrannosaurus_side_stand.png
+│               └── tyrannosaurus_side_walk.png
+├── setup.py
+└── sugargame
+    ├── __init__.py
+    ├── canvas.py
+    └── event.py
+
+14 directories, 76 files
